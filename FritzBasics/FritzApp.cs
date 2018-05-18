@@ -111,24 +111,31 @@ class FritzApp
         // Who will go first - Eagles (Jeff's team) or Browns (Sadukie's team)?
     }
 
-    public void GoHide()
-    {
-        // In Hide-And-Seek, the counter has to count to a number to give people time to hide
-        // Create a for-loop to do the counting to 20
-        Console.WriteLine("=======================");
-        for(int counter = 0; counter < 20; counter = counter + 1)
-        {
-            Console.Write(${counter}\t);
-        }
-        Console.WriteLine("\r=======================");
-    }
+    //public void GoHide()
+    //{
+    //    // In Hide-And-Seek, the counter has to count to a number to give people time to hide
+    //    // Create a for-loop to do the counting to 20
+    //    Console.WriteLine("=======================");
+    //    for(int counter = 0; counter < 20; counter = counter ++)
+    //    {
+    //        Console.Write(${counter}\t);
+    //    }
+    //    Console.WriteLine("\n=======================");
+    //}
 
-    public void AllHid()
-    {
-        // In Hide-And-Seek, there may be a song checking if they're all hid
-        // "All hid, all hid, all hid... 5, 10, 15, 20 all hid"
-        // Create a for-loop to show how to count up by 5s
-    }
+    //public void AllHid()
+    //{
+    //    // In Hide-And-Seek, there may be a song checking if they're all hid
+    //    // "All hid, all hid, all hid... 5, 10, 15, 20 all hid"
+    //    // Create a for-loop to show how to count up by 5s
+
+    //    Console.WriteLine("=======================");
+    //    for(int counter = 0; counter <= 20; counter = counter+=5) // shorthad for counter = counter + 5
+    //    {
+    //        Console.Write(${counter}\t);
+    //    }
+    //    Console.WriteLine("\n=======================");
+    //}
 
     public void LaunchRocket()
     {
